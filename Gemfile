@@ -15,6 +15,7 @@ end
 
 group :production do
    gem 'pg'
+   gem "sqlite3"
 end
 
 # Use the Puma web server [https://github.com/puma/puma]
